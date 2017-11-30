@@ -1,0 +1,1189 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.rekt {
+    position: fixed;
+    /*border: 3px solid black;*/
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #082c66;
+    display: flex;
+    justify-content: flex-end;
+	align-items: center;
+	z-index: 10;
+  }
+
+.meniu1 {
+    display: inline;
+    margin-left: 30px;
+    color: red;
+    font-size: 1.3em;
+    font-family: 'Crimson Text', serif;
+    margin-right: 10px;
+    /*font-family: 'Indie Flower', cursive;*/
+}
+
+.meniu1:hover {
+  /*background-color: green;*/
+  border-bottom: 4px solid yellow;
+  transition: border 0.2s;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: yellow;
+}
+
+.imagCanoe {
+  background-image: url('canoe.jpg');
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 300;
+  font-size: 50px;
+  margin-left: 5px;
+}
+
+h3 {
+	position: relative;
+	margin-bottom: 30px;
+	margin-left: 5px;
+}
+
+
+.imagSydney {
+  background-image: url('dataPlaces/sydney.jpg');
+  height: 315px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  margin-top: 1px;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.imagSydney p{
+	position: relative;
+	bottom: -300px;
+}
+
+.imagSydney:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.1);
+}
+
+.imagMare {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.leftUp {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-image: url('dataPlaces/perth.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+   
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  
+}
+
+.leftUp p {
+	position: relative;
+	top: -30px;
+	margin-top: 0px;
+}
+
+.leftUp:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.leftDown {
+  height: 150px;
+  width: 300px;
+  margin-top: 10px;
+  background-image: url('dataPlaces/melbourne.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.leftDown p {
+	position: relative;
+	bottom: -160px;
+	margin-bottom: 0px;
+}
+
+.leftDown:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.rightUp {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-image: url('dataPlaces/adelaide.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.rightUp p {
+	position: relative;
+	top: -30px;
+	margin-top: 0px;
+}
+
+.rightUp:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.rightDown {
+  height: 150px;
+  width: 300px;
+  margin-top: 10px;
+  background-image: url('dataPlaces/greatBarrierReef.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.rightDown p{
+	position: relative;
+	bottom: -160px;
+	margin-bottom: 0px;
+}
+
+.rightDown:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.left {
+  margin-left: 10px;
+}
+
+.right {
+  margin-left: 10px;
+}
+
+
+
+
+.imagMareThings {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.leftThings {
+  margin-right: 10px;
+}
+
+.rightThings{
+  margin-right: 10px;
+}
+
+.leftUpThings {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-image: url('dataThings/aquaticAndCoastal.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+   
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  
+}
+
+.leftUpThings p {
+	position: relative;
+	top: -30px;
+}
+
+.leftUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.leftDownThings {
+  height: 150px;
+  width: 300px;
+  margin-top: 10px;
+  background-image: url('dataThings/food.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.leftDownThings p {
+	position: relative;
+	bottom: -160px;
+}
+
+.leftDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.rightUpThings {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-image: url('dataThings/itineraries.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.rightUpThings p {
+	position: relative;
+	top: -30px;
+}
+
+.rightUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.rightDownThings {
+	
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  background-image: url('dataThings/koala.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+   transition: all 1s ease;
+}
+
+.rightDownThings p{
+	position: relative;
+	bottom: -160px;
+	margin-bottom: 0px;
+}
+
+.rightDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.imagSydneyThings {
+  background-image: url('dataThings/delfin.jpg');
+  height: 317px;
+  width: 600px;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+   -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.imagSydneyThings p{
+	position: relative;
+	top: -45px;
+}
+
+.imagSydneyThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.1);
+}
+
+
+
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	aling-content: center;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.hr1 {
+	width: 20%;
+	height: 0px;
+}
+
+
+
+
+.sectFinal{
+	display: flex;
+	justify-content: space-between;
+}
+
+h4, h5 {
+	margin-left: 5px;
+}
+
+.aussieSpecPg{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	width: 30%;
+	flex-direction: column;
+}
+
+.aussieSpecImg{
+  background-image: url('SectJos/aussieSpecialist.jpeg');
+  height: 150px;
+  width: 300px;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+.visaInfPg{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	width: 30%;
+	flex-direction: column;
+}
+
+.visaInfImg{
+  background-image: url('SectJos/hat.jpeg');
+  height: 150px;
+  width: 300px;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+.intMapPg{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	align-content: center;
+	width: 30%;
+	flex-direction: column;
+}
+
+.intMapImg{
+  background-image: url('SectJos/map.png');
+  height: 150px;
+  width: 300px;
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+@media screen and (min-width:769px) and (max-width: 1280px){
+
+	.imagCanoe {
+	background-image: url('canoe.jpg');
+	width: 100%;
+	height: 700px;;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	}
+
+	h1{
+		display: flex;
+		justify-content: center;
+		font-size: 36px;
+	}
+
+	.hr1{
+		height: 0px;
+		width: 10%;
+	}
+
+	.imagMare{
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	
+	.left{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.right{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	
+	.imagSydney {
+	background-image: url('dataPlaces/sydney.jpg');
+	height: 315px;
+	width: 615px;
+	margin-left: 11px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	margin-top: 1px;
+	transition: none;
+	}
+
+	.imagSydney p{
+	position: relative;
+	top: -40px;
+}
+	
+	.imagSydney:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+}
+
+	.leftUp {
+	height: 150px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-right: 5px;
+	background-image: url('dataPlaces/perth.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.leftUp:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+
+	.leftUp p {
+	position: relative;
+	top: -20px;
+	margin-top: 0px;
+}
+	
+	.leftDown {
+	height: 150px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 5px;
+	background-image: url('dataPlaces/melbourne.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.leftDown:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+	
+	.leftDown p {
+	position: relative;
+	bottom: 36px;
+	margin-bottom: 0px;
+}
+	
+	.rightDown {
+	height: 150px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-image: url('dataPlaces/greatBarrierReef.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.rightDown:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+}
+
+	.rightDown p{
+	position: relative;
+	bottom: 36px;
+	margin-bottom: 0px;
+}
+
+	.rightUp {
+	height: 150px;
+	width: 300px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	background-image: url('dataPlaces/adelaide.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+
+	.rightUp p {
+	position: relative;
+	top: -20px;
+	margin-top: 0px;
+}
+	
+	.rightUp:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+	
+	
+	
+	.imagMareThings {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+
+.leftThings {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rightThings{
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.leftUpThings {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-right: 5px;
+  background-image: url('dataThings/aquaticAndCoastal.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  transition: none;
+}
+
+.leftUpThings p {
+	position: relative;
+	top: -40px;
+}
+
+.leftUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+
+.leftDownThings {
+  height: 150px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 5px;
+  background-image: url('dataThings/food.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  transition: none;
+}
+
+.leftDownThings p {
+	position: relative;
+	bottom: 39px;
+}
+
+.leftDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+
+.rightUpThings {
+  height: 150px;
+  width: 300px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-right: 10px;
+  background-image: url('dataThings/itineraries.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  transition: none;
+}
+
+.rightUpThings p {
+	position: relative;
+	top: -36px;
+}
+
+.rightUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+
+.rightDownThings {
+	
+  height: 150px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-image: url('dataThings/koala.jpg');
+
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  transition: none;
+}
+
+.rightDownThings p{
+	position: relative;
+	bottom: 36px;
+	margin-bottom: 0px;
+}
+
+.rightDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+
+.imagSydneyThings {
+  background-image: url('dataThings/delfin.jpg');
+  height: 317px;
+  width: 615px;
+  margin-top: 15px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+  
+  transition: none;
+}
+
+.imagSydneyThings p{
+	position: relative;
+	top: -40px;
+}
+
+.imagSydneyThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	
+	.sectFinal{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+
+	}
+	
+@media only screen and (max-width: 768px){
+	
+	h1{
+		display: flex;
+		justify-content: center;
+		font-size: 36px;
+	}
+
+	.hr1{
+		height: 0px;
+		width: 10%;
+	}
+
+	.imagMare{
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+
+	.left{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.right{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.imagSydney {
+	background-image: url('dataPlaces/sydney.jpg');
+	height: 150px;
+	width: 300px;
+	margin-left: 11px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	margin-top: 1px;
+	transition: none;
+	}
+	
+	.imagSydney p{
+	position: relative;
+	top: -40px;
+}
+	
+	.imagSydney:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+}
+	
+	.leftUp {
+	height: 150px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-right: 5px;
+	background-image: url('dataPlaces/perth.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.leftUp:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+
+	.leftUp p {
+	position: relative;
+	top: -20px;
+	margin-top: 0px;
+}
+	
+	.leftDown {
+	height: 150px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-image: url('dataPlaces/melbourne.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.leftDown:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+	
+	.leftDown p {
+	position: relative;
+	bottom: 36px;
+	margin-bottom: 0px;
+}
+	
+	.rightUp {
+	height: 150px;
+	width: 300px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-image: url('dataPlaces/adelaide.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+
+	.rightUp p {
+	position: relative;
+	top: -20px;
+	margin-top: 0px;
+}
+	
+	.rightUp:hover{
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+	}
+	
+	.rightDown {
+	height: 150px;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-image: url('dataPlaces/greatBarrierReef.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+	}
+	
+	.rightDown:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform: none;
+}
+
+	.rightDown p{
+	position: relative;
+	bottom: 36px;
+	margin-bottom: 0px;
+}
+	
+	.imagMareThings {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+	
+	.leftThings {
+  margin-right: -10px;
+}
+
+	.rightThings{
+  margin-right: -10px;
+}
+	
+	.leftUpThings {
+	height: 150px;
+    width: 300px;
+	margin-bottom: 10px;
+	background-image: url('dataThings/aquaticAndCoastal.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+}
+
+	.leftUpThings p {
+	position: relative;
+	top: -30px;
+}
+
+	.leftUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	.leftDownThings {
+	height: 150px;
+    width: 300px;
+	margin-top: 30px;
+	background-image: url('dataThings/food.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+}
+
+	.leftDownThings p {
+	position: relative;
+	bottom: 25px;
+}
+
+	.leftDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	.rightUpThings {
+	height: 150px;
+    width: 300px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	background-image: url('dataThings/itineraries.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+}
+
+	.rightUpThings p {
+	position: relative;
+	top: -25px;
+}
+
+	.rightUpThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	.rightDownThings {
+	
+	height: 150px;
+    width: 300px;
+	margin-top: 20px;
+	margin-left: 0px;
+	background-image: url('dataThings/koala.jpg');
+
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+	transition: none;
+}
+
+	.rightDownThings p{
+	position: relative;
+	bottom: 20px;
+	margin-bottom: 0px;
+}
+
+	.rightDownThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	.imagSydneyThings {
+	background-image: url('dataThings/delfin.jpg');
+	height: 150px;
+    width: 300px;
+	margin-top: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	background-position: center;
+  
+	transition: none;
+}
+
+	.imagSydneyThings p{
+	position: relative;
+	top: -40px;
+}
+
+	.imagSydneyThings:hover {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:none;
+}
+	
+	.sectFinal{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+	
+	}
+
+
+
+
+
+
+
+
+
+
