@@ -8,7 +8,7 @@ html, body {
 	color: black;
 }
 
-.rekt {
+nav {
     position: fixed;
     /*border: 3px solid black;*/
     top: 0px;
@@ -16,7 +16,7 @@ html, body {
     height: 60px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #082c66;
+    background-color: #00a0af;
     display: flex;
     justify-content: flex-end;
 	align-items: center;
@@ -28,15 +28,13 @@ html, body {
     margin-left: 30px;
     color: red;
     font-size: 1.3em;
-    font-family: 'Crimson Text', serif;
     margin-right: 10px;
-    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Indie Flower', cursive;
 }
 
 .meniu1:hover {
   /*background-color: green;*/
-  border-bottom: 4px solid yellow;
-  transition: border 0.2s;
+  border-bottom: 2px solid #ffc20e;
 }
 
 a:link {
@@ -49,7 +47,7 @@ a:visited {
 }
 
 a:active {
-  color: yellow;
+  color: #ffc20e;
 }
 
 section a:link {
@@ -79,6 +77,18 @@ h1 {
   font-family: 'Amatic SC', cursive;
   font-weight: 300;
   font-size: 90px;
+}
+
+h2 {
+  font-family: 'Lato';
+}
+
+h3 {
+  font-family: 'Arvo';
+}
+
+p {
+  font-family: 'Arvo';
 }
 
 .cls2 {
@@ -117,17 +127,26 @@ h1 {
 .button{
 	display: flex;
 	justify-content: center;
+	align-content: center;
+	align-items: center;
 	margin-top: 40px;
 	margin-bottom: -30px;
-	width: 100px;
+	width: 150px;
 	height: 50px;
-	border: 2px solid black;
+	border: 2px solid #00535e;
 }
 
 .button:hover{
-	background-color: darkblue;
+	background-color: #00535e;
 }
 
+.button:hover p{
+	color:white;
+}
+
+.button p{
+	color: #00535e;
+}
 @media screen and (min-width:769px) and (max-width: 1280px){
 	 
 	 .cls5{
